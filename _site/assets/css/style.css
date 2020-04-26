@@ -285,8 +285,6 @@ body { font-family: "Poppins", sans-serif; }
 
 .search-box { box-shadow: none !important; }
 
-.post.card-columns { column-count: 2; }
-
 .post.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; }
 .post.card .card-img-top { border-radius: 15px 15px 0 0; }
 
@@ -311,8 +309,6 @@ body { font-family: "Poppins", sans-serif; }
 
 .nav-item.active { font-weight: bold; }
 .nav-item.active::after { width: 100% !important; }
-
-.project.card-columns { column-count: 3; }
 
 .project.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; transition: transform 400ms; }
 .project.card .card-img-top { border-radius: 15px 15px 0 0; }
