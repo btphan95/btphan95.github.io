@@ -285,28 +285,10 @@ body { font-family: "Poppins", sans-serif; }
 
 .search-box { box-shadow: none !important; }
 
-.post.card { border-radius: 15px; text-decoration: none !important; padding: 15px; height: 100%; }
-.post.card .card-footer { font-size: 14px; margin: 0 -15px -15px -15px; padding: 15px 35px; }
+.post.card-columns { column-count: 2; }
 
-.post .post-metadata { font-size: 14px; margin-top: -6px; }
-.post .tag:hover { background-color: #007bff; color: white !important; }
-.post footer { font-size: 10px; color: #6c757d; text-decoration: underline; text-decoration-color: yellow; text-align: right; margin-top: 4em; margin-right: 2em; }
-.post h1, .post h2 { margin-top: 32px; }
-.post hr { background: #6c757d; }
-.post img:not(.emoji) { display: block; max-width: 100%; height: auto; margin: 1rem auto; }
-.post .video { position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; width: 100%; }
-.post .video iframe { position: absolute; height: 100%; width: 100%; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) { display: inline-block; text-decoration: none; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover { color: #007bff; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline)::after { content: ""; display: block; height: 0.15em; margin-top: -0.15em; width: 0; background: #007bff; transition: width 0.35s; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover::after { width: 100%; }
-.post pre { background: #f8f9fa; border: 1px solid #ddd; color: #343a40; font-family: monospace; font-size: 14px; line-height: 20px; margin-bottom: 1.6em; max-width: 100%; padding: 1em 1.5em; display: block; page-break-inside: avoid; overflow: auto; word-wrap: break-word; }
-.post code.highlighter-rouge { background-color: #f8f9fa; color: #343a40; border-radius: 3px; margin: 0; padding: 0.2em 0.65em; }
-.post blockquote { border-left: 0.25em solid #007bff; color: #6c757d; padding: 0 1em; }
-.post table { display: block; overflow-x: auto; margin: 1rem 0; }
-.post table td, .post table th { border: 1px solid #ddd; padding: 8px 16px; }
-.post table th { padding-top: 12px; padding-bottom: 12px; font-weight: 500; text-align: left; background-color: #007bff; color: white; }
-.post table tr:nth-child(even) { background-color: #f8f9fa; }
+.post.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; }
+.post.card .card-img-top { border-radius: 15px 15px 0 0; }
 
 .social { text-decoration: none !important; }
 
@@ -329,6 +311,8 @@ body { font-family: "Poppins", sans-serif; }
 
 .nav-item.active { font-weight: bold; }
 .nav-item.active::after { width: 100% !important; }
+
+.project.card-columns { column-count: 3; }
 
 .project.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; transition: transform 400ms; }
 .project.card .card-img-top { border-radius: 15px 15px 0 0; }
