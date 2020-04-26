@@ -1,0 +1,76 @@
+### Site Settings ###
+title               : Binh Phan
+description         : "machine learning engineer"
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+# remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/index.md
+  - documentation/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Binh Phan
+  image             : https://ak1.picdn.net/shutterstock/videos/29747311/thumb/12.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : btphan95@gmail.com
+  facebook          : btphan95
+  github            : btphan95
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : phanbinh
+# medium            : your_username
+# soundcloud        : your_username
+  spotify           : airheadsxben
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : itsbinh
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+    
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
