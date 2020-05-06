@@ -63,12 +63,12 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-      sitemap: false
+  # - scope:                                              # For Documentation Only
+  #     path: ""                                          # For Documentation Only
+  #     type: "elements"                                  # For Documentation Only
+  #   values:                                             # For Documentation Only
+  #     layout: "element"                                 # For Documentation Only
+  #     sitemap: false
 
 ### Exclude from processing ###
 exclude:
@@ -76,4 +76,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - /elements/
+  - /_elements/
