@@ -29,3 +29,7 @@ layout: page
 </p>
 
 {{ content }}
+
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}

@@ -290,10 +290,11 @@ body { font-family: "Poppins", sans-serif; }
 
 .social { text-decoration: none !important; }
 
-#attribution { opacity: 0.5; }
-#attribution a { text-decoration: none; font-weight: bold; }
+#attribution { opacity: 0.4; }
+#attribution a { text-decoration: none; color: #6c757d; }
+#attribution a:hover { color: #fc6c85; }
 
-@media only screen and (min-width: 768px) { #attribution { writing-mode: vertical-rl; transform: rotate(180deg); position: fixed; bottom: 56px; right: 22px; } }
+@media only screen and (min-width: 768px) { #attribution { bottom: 56px; } }
 #container { display: inline-block; position: relative; width: 100%; }
 
 #dummy { padding-top: 100%; /* 1:1 aspect ratio */ }
@@ -541,5 +542,5 @@ body { font-family: "Poppins", sans-serif; }
 .timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #007bff; position: absolute; left: -4px; top: 0; }
 .timeline-body .timeline-item { position: relative; }
 .timeline-body .timeline-item:after { content: ""; width: 20px; height: 20px; border-radius: 50%; border: 4px solid #007bff; background-color: #f8f9fa; position: absolute; left: -12px; top: 8px; z-index: 10; }
-.timeline-body .timeline-item .content { margin: 40px; padding-bottom: 20px; border-bottom: 1px dashed #343a40; }
+.timeline-body .timeline-item .content { margin: 40px; padding-bottom: 20px; }
 .timeline-body .timeline-item .content .date { margin-top: -5px; margin-bottom: 15px; color: #6c757d; }

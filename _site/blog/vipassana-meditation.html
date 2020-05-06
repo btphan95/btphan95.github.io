@@ -30,11 +30,12 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
 
+  
 </head>
 
 
-<body class="d-flex flex-column h-100">
-
+<body style="max-width:4000px" class="d-flex flex-column h-100">
+  
   <main class="flex-shrink-0 container mt-5">
   <nav class="navbar navbar-expand-lg navbar-light">
 
@@ -96,15 +97,38 @@
 <p>After those 10 days, my practice has continued: I now meditate for two hours a day, one hour in the morning and one in the evening. It has been the month after the retreat of solid consistent practice where I’ve seen the biggest changes in my life. I am now more focused and productive than ever. I am more connected to those around me, and more present in my life. I am reading and learning at a frightening pace. And I have a feeling that the benefits have just started. I hope this brief post on my experience with meditation can inspire you to start or continue your practice, and may you find benefits of meditation to your own life.</p>
 
 
+
+  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://btphan95-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 </div>
   </main>
 
   <footer class="mt-auto py-3 text-center">
 
-  <small class="text-muted mb-2">
+<!--   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
     by <strong>Binh Phan</strong>
-  </small>
+  </small> -->
 
   <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:btphan95@gmail.com"
        style="color: #6c757d"
@@ -138,7 +162,10 @@
       <i class="fab fa-twitter fa-1x"></i>
     </a>
 
-</div>
+</div><small id="attribution">
+  	<a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU Theme </a> by <a href="https://github.com/YoussefRaafatNasry/"> Youssef Raafat </a> . Powered by <a href="https://jekyllrb.com/"> Jekyll </a>.
+  </small> 
+
   
 </footer>
   <!-- GitHub Buttons -->

@@ -5,6 +5,7 @@ style:
 color: 
 image: "https://binhphan.s3-us-west-1.amazonaws.com/IMG-4845.jpg"
 description: How I benefitted from a 10-day vipassana meditation retreat.
+comments: true
 ---
 
 {% include elements/figure.html image="https://binhphan.s3-us-west-1.amazonaws.com/IMG-4845.jpg" caption="sunrise at the Northern California Vipassana Center in Kelseyville, CA" %}

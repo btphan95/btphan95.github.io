@@ -1,10 +1,18 @@
 <footer class="mt-auto py-3 text-center">
 
-  <small class="text-muted mb-2">
+<!--   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
     by <strong>{{ site.author.name }}</strong>
-  </small>
+  </small> -->
 
   {% include social.html %}
+  {%- assign theme_name = "portfolYOU Theme" -%}
+  {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
+  {%- assign author_name = "Youssef Raafat" -%}
+  {%- assign author_github = "https://github.com/YoussefRaafatNasry/" -%}
+  <small id="attribution">
+  	<a href="{{ theme_repo }}">{{ theme_name }} </a> by <a href="{{ author_github }}"> {{ author_name }} </a> . Powered by <a href="https://jekyllrb.com/"> Jekyll </a>.
+  </small> 
+
   
 </footer>
