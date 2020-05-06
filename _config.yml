@@ -9,6 +9,7 @@ repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-userna
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-sitemap
 
 
 ### Navbar Settings ###
