@@ -10,13 +10,14 @@ repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-userna
 plugins:
   - jemoji
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/404.html
   - pages/tags.html
   - pages/index.md
-  - documentation/**                           # For Documentation Only
 
 
 ### Author Info ###
@@ -67,7 +68,7 @@ defaults:
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
-
+      sitemap: false
 
 ### Exclude from processing ###
 exclude:
@@ -75,3 +76,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - /elements/
