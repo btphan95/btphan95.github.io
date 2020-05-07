@@ -23,7 +23,8 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Binh Phan
-  image             : https://raw.githubusercontent.com/btphan95/btphan95.github.io/master/assets/profile_pic.jxr
+  image             : https://raw.githubusercontent.com/btphan95/btphan95.github.io/master/assets/profile_pic.jpg
+  image_webp        : https://raw.githubusercontent.com/btphan95/btphan95.github.io/master/assets/profile_pic.webp
 # behance           : your_username
 # dribbble          : your_username
   email             : btphan95@gmail.com

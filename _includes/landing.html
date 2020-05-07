@@ -10,7 +10,11 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="{{ site.author.image }}" title = "{{ site.title }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <picture>
+          <source type="image/webp" srcset="{{ site.author.image_webp }}" >
+          <img src="{{ site.author.image_webp }}" title = "{{ site.title }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        </picture>
+        <!-- <img src="{{ site.author.image_webp }}" title = "{{ site.title }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s"> -->
       </div>
     </div>
 
