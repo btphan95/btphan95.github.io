@@ -14,9 +14,7 @@ layout: default
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b>
-
   <br>
-
   {%- if page.tags != empty -%}
     Tags: 
     {% for tag in page.tags %}
@@ -25,7 +23,6 @@ layout: default
     </a>
     {% endfor %}
   {%- endif -%}
-
 </p>
 
 {{ content }}
