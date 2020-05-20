@@ -100,9 +100,31 @@
 </p>
 
 <figure class="figure w-100">
-  <img src="/assets/images/projects/greenr/logo.png" class="figure-img img-fluid rounded" alt="find dandelions in your grass using this deep learning app" /><figcaption class="figure-caption text-center">find dandelions in your grass using this deep learning app</figcaption></figure>
+	<p style="text-align:center;">
+		<img src="/assets/images/projects/greenr/logo.png" class="figure-img img-fluid rounded" alt="find dandelions in your grass using this deep learning app" />
+			<figcaption class="figure-caption text-center"> find dandelions in your grass using this deep learning app! </figcaption>
+	</p>
+</figure>
+<p><a class="social mx-1" href="https://github.com/btphan95/greenr" style="color: #6c757d" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#6c757d'">
+  <i class="fab fa-github fa-1x"></i>
+  Source on Github
+</a></p>
 
-<p>greenr is a web-based deep learning app to classify dandelions and grass. Simply upload a picture from your local device or from a URL, and the app will return the results!</p>
+<p>greenr is a web app to let users upload an image to classify it as a dandelion or grass.</p>
+
+<p><a href="http://34.68.160.231"><img src="https://img.shields.io/badge/live-demo-brightgreen?style=for-the-badge&amp;logo=appveyor?" /></a></p>
+
+<p>Click the badge above to run the demo.</p>
+
+<p>greenr is powered by a deep learning model created in FastAI. If you are interested in learning how I  created an image dataset from Google Images and trained a dandelions and grass classifier in FastAI, check out this <a href="https://github.com/btphan95/greenr-train/">Github repo</a> that links to a notebook outlining my process. <a href="http://34.68.160.231">FastAI</a> is a deep learning library built on top of PyTorch that makes it extremely to get started with deep learning.</p>
+
+<p>To deploy greenr onto the web, I utilized</p>
+<ul>
+  <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a> as the back-end to serve the model as an endpoint,</li>
+  <li><a href="https://flask-cors.readthedocs.io/">Flask-CORS</a> to enable Cross Origin Resource Sharing (CORS),</li>
+  <li><a href="https://www.docker.com/">Docker</a> to containerize the server, and</li>
+  <li><a href="https://www.heroku.com/">Heroku</a> <a href="https://greenr.herokuapp.com/">(https://greenr.herokuapp.com/)</a> and <a href="http://cloud.google.com/">Google Cloud Platform</a> <a href="http://34.68.160.231">(http://34.68.160.231)</a> (for redundancy) to host the container and serve the app.</li>
+</ul>
   
 
 

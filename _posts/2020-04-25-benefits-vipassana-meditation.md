@@ -8,7 +8,10 @@ description: How I benefitted from a 10-day vipassana meditation retreat.
 comments: true
 ---
 
-{% include elements/figure.html image= "/assets/images/posts/2020-04-25-benefits-vipassana-meditation/vipassana.jpg" caption="sunrise at the Northern California Vipassana Center in Kelseyville, CA" %}
+<p style="text-align:center;">
+	<img src="/assets/images/posts/2020-04-25-benefits-vipassana-meditation/vipassana.jpg" class="figure-img img-fluid rounded" alt="sunrise at the Northern California Vipassana Center in Kelseyville, CA">
+	<figcaption class="figure-caption text-center"> sunrise at the Northern California Vipassana Center in Kelseyville, </figcaption>
+</p>
 
 ## The Retreat
 

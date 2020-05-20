@@ -8,10 +8,33 @@ external_url:
 date: 2020-05-07
 comments: true
 ---
+<figure class="figure w-100">
+	<p style="text-align:center;">
+		<img src="/assets/images/projects/resnet/ex.png" class="figure-img img-fluid rounded" alt="Upload an image to this web app and ResNet50 will classify it" >
+			<figcaption class="figure-caption text-center"> Upload an image to this web app and ResNet50 will classify it </figcaption>
+	</p>
+</figure>
 
-{% include elements/figure.html image="/assets/images/projects/resnet/ex.png" caption="Upload an image to this web app and ResNet50 will classify it" %}
+{%- assign service_data = site.data.social-media["github"] -%}    
+<a class="social mx-1"  href="https://github.com/btphan95/resnet50-frontend"
+   style="color: #6c757d"
+   onMouseOver="this.style.color='#000000'"
+   onMouseOut="this.style.color='#6c757d'">
+  <i class="{{ service_data.icon }} fa-1x"></i>
+  Source on Github
+</a>
 
-ResNet50 is a deep learning model that is trained on the ImageNet dataset. This model is imported from TensorFlow/Keras. The published front-end web app was designed in Flutter using the Dart programming language. The back-end is run by a Flask web server, containerized in Docker, and run stateless on the Google Gloud Run compute platform.
 
-Upload an image to see what the model predicts, and let me know your thoughts!
+[<img src="https://img.shields.io/badge/live-demo-blueviolet?style=for-the-badge&logo=appveyor?">](http://resnet.surge.sh)
+
+
+A web app demoing ResNet50, built using the [Flutter](https://flutter.dev/) UI toolkit.
+
+ResNet50 is a deep learning model trained on the ImageNet dataset. This model is [imported from TensorFlow / Keras](https://keras.io/api/applications/resnet/#resnet50-function). 
+
+The model is served over a [Flask](https://flask.palletsprojects.com/en/1.1.x/) web server and then powered by a stateless [Docker container](https://www.docker.com/resources/what-container) on [Google Cloud Run](https://cloud.google.com/run).
+
+Feedback is greatly appreciated!
+
+A huge thanks to [Felix Blaschke](https://github.com/felixblaschke) for the Particle background and [Rodolfo Hernandez](https://github.com/rjcalifornia) for the image upload concept via Flutter.
 
