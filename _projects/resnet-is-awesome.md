@@ -8,11 +8,10 @@ external_url:
 date: 2020-05-07
 comments: true
 ---
-<figure class="figure w-100">
-	<p style="text-align:center;">
+
+<figure class="figure w-100" style="text-align:center;">
 		<img src="/assets/images/projects/resnet/ex.png" class="figure-img img-fluid rounded" alt="Upload an image to this web app and ResNet50 will classify it" >
 			<figcaption class="figure-caption text-center"> Upload an image to this web app and ResNet50 will classify it </figcaption>
-	</p>
 </figure>
 
 {%- assign service_data = site.data.social-media["github"] -%}    

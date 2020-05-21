@@ -8,13 +8,12 @@ external_url:
 date: 2020-04-25
 comments: true
 ---
-<figure class="figure w-100">
-	<p style="text-align:center;">
+
+
+<figure class="figure w-100" style="text-align:center;">
 		<img src="/assets/images/projects/greenr/logo.png" class="figure-img img-fluid rounded" alt="find dandelions in your grass using this deep learning app" >
 			<figcaption class="figure-caption text-center"> find dandelions in your grass using this deep learning app! </figcaption>
-	</p>
 </figure>
-
 
 {%- assign service_data = site.data.social-media["github"] -%}    
 <a class="social mx-1"  href="https://github.com/btphan95/greenr"
