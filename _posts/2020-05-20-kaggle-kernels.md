@@ -4,7 +4,7 @@ tags: [tech]
 style: 
 color: 
 image: "/assets/images/posts/kaggle-kernels/dandelion.jpg"
-description: How I benefitted from a 10-day vipassana meditation retreat.
+description: Kaggle Kernels is the best way to share your Jupyter notebook easily, powerfully, and for free.
 comments: true
 ---
 
