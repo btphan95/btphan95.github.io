@@ -283,6 +283,8 @@ body { font-family: "Poppins", sans-serif; }
 
 .badge { font-weight: 500; }
 
+pre, code { background-color: #ededed; }
+
 .search-box { box-shadow: none !important; }
 
 .post.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; }
