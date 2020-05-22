@@ -4,7 +4,7 @@ tags: [tech]
 style: fill
 color: dark
 image: "/assets/images/posts/how-to-dataset/grass.jpg"
-description: Get 
+description: Create an image dataset in under 10 minutes using some Javascript and a few lines of code in Python.
 comments: true
 ---
 
