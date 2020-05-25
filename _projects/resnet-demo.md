@@ -1,6 +1,6 @@
 ---
-name: ResNet is Awesome
-title: ResNet is Awesome
+name: ResNet Demo
+title: ResNet Demo
 tools: [Python, TensorFlow, Keras, Flask, Docker, Google Cloud Run, Flutter]
 image: "/assets/images/projects/resnet/ex.png"
 description: A web app demonstrating ResNet50 
